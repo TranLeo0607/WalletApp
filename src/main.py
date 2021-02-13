@@ -21,6 +21,18 @@ class WalletApp(MDApp):
     def navigateDrawer(self):
         print("Navigates Here")
         
+    def showHomePage(self):
+        print("Navigates Here")
+        
+    def showAnalyticsPage(self):
+        print("Navigates Here")
+        
+    def showWallet(self):
+        print("Navigates Here")
+        
+    def showProfile(self):
+        print("Navigates Here")
+        
     def setThemeColor(self, x_cr):
         theme_clr = x_cr
         
@@ -28,8 +40,8 @@ class WalletApp(MDApp):
         page = page_String
         
     def changeTheme(self):
-        theme_Window = MDThemePicker()
-        theme_Window.open()
+        theme_Window2 = MDThemePicker()
+        theme_Window2.open()
         
     def show_time_picker(self):
         time_Window = MDTimePicker()
